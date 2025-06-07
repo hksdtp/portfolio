@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>NihDev0 - Nhà Phát Triển Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">NihDev0</div>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#achievements">Thành tích</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Xin chào, tôi là <span class="highlight">Hải Ninh</span> Nhà Phát Triển Web</h1>
+                <p>Tôi tạo ra những trải nghiệm web hiện đại và tương tác với thiết kế đẹp mắt và hiệu suất cao.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Xem dự án</a>
+                    <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/hksdtp" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/nih.dev/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://t.me/nihdev0" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://zalo.me/0989960304" target="_blank" aria-label="Zalo"><i class="fas fa-comment-dots"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="anh.jpg" alt="Hải Ninh - NihDev0" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Giới thiệu về tôi</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Đam mê phát triển web</h3>
+                    <p>Tôi là một nhà phát triển web full-stack với hơn 3 năm kinh nghiệm trong việc tạo ra những ứng dụng web hiện đại và tối ưu. Tôi chuyên về React, Node.js và các công nghệ web tiên tiến.</p>
+                    <p>Tôi luôn tìm cách học hỏi những công nghệ mới và áp dụng chúng vào các dự án thực tế để mang lại giá trị tốt nhất cho người dùng và doanh nghiệp.</p>
+
+                    <div class="expertise-summary">
+                        <p>Bên cạnh lập trình, tôi còn có chuyên môn trong <strong>sản xuất nội dung số</strong> và <strong>nghiệp vụ an ninh - cứu hộ</strong>.</p>
+                        <button class="btn-expand" id="expandBtn">
+                            <span>Xem chi tiết</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <div class="expertise-details" id="expertiseDetails">
+                        <div class="expertise-item">
+                            <h4><i class="fas fa-video"></i> Content Creator & Editor</h4>
+                            <p>Có kinh nghiệm chuyên môn trong lĩnh vực sản xuất và biên tập nội dung số. Thành thạo kỹ năng nhiếp ảnh, quay phim, dựng phim và hậu kỳ video. Có khả năng xử lý và chỉnh sửa hình ảnh chuyên nghiệp, đảm bảo chất lượng và tính thẩm mỹ cao cho các sản phẩm truyền thông đa phương tiện. Đặc biệt, sở trường trong việc sáng tạo và xây dựng nội dung giải trí, phù hợp với đa dạng nền tảng xã hội, đáp ứng nhu cầu thị hiếu của người xem.</p>
+                        </div>
+
+                        <div class="expertise-item">
+                            <h4><i class="fas fa-shield-alt"></i> Kỹ năng Nghiệp vụ An ninh và Cứu hộ</h4>
+                            <p>Được đào tạo chuyên sâu và chính quy trong lực lượng Công an Nhân dân về nghiệp vụ điều lệnh, võ thuật, bắn súng, và tác phong chấp hành nghiêm chỉnh. Có kinh nghiệm làm việc trong lĩnh vực Phòng cháy chữa cháy và Cứu nạn cứu hộ, có khả năng sơ cứu ban đầu vận hành phương tiện chuyên dụng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features fade-in">
+                    <div class="feature-item">
+                        <i class="fas fa-code"></i>
+                        <h4>Web Development</h4>
+                        <p>Phát triển ứng dụng web hiện đại và tối ưu</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-video"></i>
+                        <h4>Content Creation</h4>
+                        <p>Sản xuất và biên tập nội dung đa phương tiện</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Security & Safety</h4>
+                        <p>Nghiệp vụ an ninh và cứu hộ chuyên nghiệp</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Creative Solutions</h4>
+                        <p>Giải pháp sáng tạo cho mọi thách thức</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Kỹ năng chuyên môn</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">SASS</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Socket.io</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Webpack</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Content Creation & Media</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Nhiếp ảnh</span>
+                        <span class="skill-tag">Quay phim</span>
+                        <span class="skill-tag">Dựng phim</span>
+                        <span class="skill-tag">Hậu kỳ video</span>
+                        <span class="skill-tag">Chỉnh sửa ảnh</span>
+                        <span class="skill-tag">Adobe Premiere</span>
+                        <span class="skill-tag">Adobe Photoshop</span>
+                        <span class="skill-tag">Content Strategy</span>
+                        <span class="skill-tag">Social Media</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Nghiệp vụ An ninh</span>
+                        <span class="skill-tag">Điều lệnh</span>
+                        <span class="skill-tag">Võ thuật</span>
+                        <span class="skill-tag">Bắn súng</span>
+                        <span class="skill-tag">PCCC</span>
+                        <span class="skill-tag">Cứu nạn cứu hộ</span>
+                        <span class="skill-tag">Sơ cứu</span>
+                        <span class="skill-tag">Vận hành thiết bị</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Dự án nổi bật</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Website</h3>
+                        <p>Platform thương mại điện tử hoàn chỉnh với tính năng thanh toán online, quản lý inventory và dashboard admin.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Ứng dụng quản lý công việc với tính năng real-time collaboration, drag & drop interface và notification system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Dashboard phân tích dữ liệu với biểu đồ interactive, real-time updates và export functionality.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title fade-in">Thành tích và Khen thưởng</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Giải Nhì Võ Thuật</h3>
+                        <p>Hội thi Bắn súng, Võ thuật lực lượng trực tiếp chiến đấu trong Công an nhân dân lần thứ I</p>
+                        <span class="achievement-year">2020</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Giấy khen Cục trưởng</h3>
+                        <p>Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ</p>
+                        <span class="achievement-badge">Cấp Trung ương</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Giấy khen Giám đốc</h3>
+                        <p>Công an tỉnh Hải Dương</p>
+                        <span class="achievement-badge">Cấp Tỉnh</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Giấy khen Giám đốc</h3>
+                        <p>Công an Thành phố Hà Nội</p>
+                        <span class="achievement-badge">Cấp Thành phố</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Liên hệ với tôi</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Hãy kết nối với tôi</h3>
+                    <p>Tôi luôn sẵn sàng thảo luận về các dự án mới, ý tưởng sáng tạo hoặc cơ hội hợp tác. Hãy liên hệ và chúng ta sẽ tạo ra điều gì đó tuyệt vời cùng nhau!</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:k20.nih@gmail.com">k20.nih@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Điện thoại</h4>
+                            <p>+84 989960304</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Địa chỉ</h4>
+                            <p>Từ Liêm, Hà Nội, Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Chủ đề</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nội dung</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 NihDev0. Được thiết kế với ❤️ tại Việt Nam.</p>
+            <div class="footer-social">
+                <a href="https://github.com/hksdtp" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/nih.dev/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://t.me/nihdev0" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://zalo.me/0989960304" target="_blank" aria-label="Zalo"><i class="fas fa-comment-dots"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
